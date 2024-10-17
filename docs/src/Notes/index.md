@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 
 hero:
-  title: "Document"
-  subTitle: "📚 欢迎来到本项目的使用说明书"
+  title: "归档"
+  subTitle: "📚 归档"
 
 types:
   - name: "俱乐部新闻"
@@ -23,4 +23,3 @@ import BlogArchive from '../../.vitepress/views/BlogArchive.vue'
 </script>
 
 <BlogArchive/>
-<GiscusComment />

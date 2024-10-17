@@ -7,7 +7,6 @@ import "./print.css";
 
 import LinkCard from "../components/LinkCard.vue";
 import HText from "../components/HText.vue";
-import GiscusComment from "../components/GiscusComment.vue";
 
 import mediumZoom from "medium-zoom";
 import { onMounted, watch, nextTick } from "vue";
@@ -18,7 +17,6 @@ export default {
     // 注册全局组件
     ctx.app.component("LinkCard", LinkCard);
     ctx.app.component("HText", HText);
-    ctx.app.component("GiscusComment", GiscusComment); // 注册 Giscus 组件
   },
 
   setup() {

@@ -1,5 +1,5 @@
 ---
-title: 兴趣培养计划Day3
+title: 2024兴趣培养计划Day3
 description: 兴趣培养计划3
 date: 2024-10-12
 tags: ["hobbies", "passion"]
