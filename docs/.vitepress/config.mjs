@@ -16,7 +16,6 @@ export default defineConfig({
       { text: "💭 博客", link: "/Notes/index" },
       { text: "👫 学长的博客", link: "Friends.md" },
     ],
-    socialLinks: [{ icon: "github", link: "https://github.com/Fanceir" }],
     footer: {
       copyright: "Copyright © 2005-present JNUACM",
     },
