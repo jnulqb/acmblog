@@ -1,8 +1,8 @@
 <template>
   <VPTeamPage>
     <VPTeamPageTitle>
-      <template #title>🎨 Friends 🙌</template>
-      <template #lead>Awesome Friends from Diverse Fields of Expertise</template>
+      <template #title>🎨学长的博客🙌</template>
+      <template #lead>以下是学长的博客</template>
     </VPTeamPageTitle>
     <div class="px-6 md:px-12 lg:px-16">
       <div class="FriendsContent">
