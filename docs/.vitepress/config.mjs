@@ -4,14 +4,14 @@ import { getSidebar } from "./utils/getSidebar";
 
 export default defineConfig({
   // 标签上显示的网站标题
-  title: "Easy VitePress Blog",
+  title: "JNU ACM",
   titleTemplate: "Blog",
   // 在标签上显示所的 logo
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
 
   // 网站描述，有利于被搜索引擎捕获
   description:
-    "zbwer's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
+    "江南大学",
 
   // md 文件根目录
   // 【谨慎修改】：一旦修改将引起较多变动
@@ -61,7 +61,9 @@ export default defineConfig({
         },
         {
           find: /^.*\/VPFooter\.vue$/,
-          replacement: fileURLToPath(new URL("./components/Footer.vue", import.meta.url)),
+          replacement: fileURLToPath(
+            new URL("./components/Footer.vue", import.meta.url)
+          ),
         },
       ],
     },
