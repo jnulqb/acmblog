@@ -11,9 +11,9 @@ types:
     desc: "club news"
     link: "/Notes/News/"
     icon: "✨"
-  - name: "面经分享"
-    desc: "interview experiences"
-    link: "/Notes/Interviews/"
+  - name: "2024算法培养计划"
+    desc: "2024 algorithm plan"
+    link: "/Notes/2024AlgorithmPlan/"
     icon: "🏃"
 # flow: true
 ---
