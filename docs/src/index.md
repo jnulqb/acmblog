@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Easy VitePress Blog"
-  text: "轻松构建你的个人博客"
-  tagline: "🚀Simple, robust and swift.Experience the enhanced VitePress for your blogging needs"
+  name: "江南大学ACM俱乐部"
+  text: "欢迎来到江南大学ACM俱乐部的官方网站"
+  tagline: "🎈💭💡创新 团队 程序"
   image:
     src: /logo.png
     alt: VitePress

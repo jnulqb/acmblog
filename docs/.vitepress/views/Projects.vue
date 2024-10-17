@@ -6,7 +6,11 @@
     </VPTeamPageTitle>
     <div class="px-6 md:px-12 lg:px-16">
       <div class="ProjectsContent">
-        <ProjectCard v-for="(item, index) in projectsInfo" :key="index" v-bind="item" />
+        <ProjectCard
+          v-for="(item, index) in projectsInfo"
+          :key="index"
+          v-bind="item"
+        />
       </div>
     </div>
   </VPTeamPage>
@@ -15,6 +19,7 @@
 <script setup>
 import { VPTeamPage, VPTeamPageTitle } from "vitepress/theme";
 import ProjectCard from "./ProjectCard.vue";
+import { projectsInfo } from "../userConfig/projectsInfo";
 </script>
 
 <style scoped>
