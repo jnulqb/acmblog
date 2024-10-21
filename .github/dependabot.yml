@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # 检查 npm 依赖
+  - package-ecosystem: "npm" # 如果是 Java 项目，可以将 "npm" 改为 "maven"
+    directory: "/" # 项目根目录
+    schedule:
+      interval: "weekly" # Dependabot 每周检查更新
+  # 你可以根据项目需要添加其他类型的依赖检查，比如 GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
