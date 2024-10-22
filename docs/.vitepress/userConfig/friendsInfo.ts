@@ -24,7 +24,7 @@ export const friendsInfo: Friend[] = [
     avatar: "https://avatars.githubusercontent.com/u/28391387?v=4",
     name: "AsterZC19",
     title: "🌸 每个人的花期都不一样。",
-    link: "https://asterzc19.github.io/",
+    link: "https://starminus.uk",
     tag: "🐻神",
     color: "blue",
   },
