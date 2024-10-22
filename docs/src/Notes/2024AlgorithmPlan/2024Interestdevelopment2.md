@@ -1,7 +1,7 @@
 ---
-title: "2024兴趣培养计划Day2"
-desc: "2024兴趣培养计划2"
-updateTime: 2024-10-12
+title: 2024兴趣培养计划Day2
+description: 兴趣培养计划2
+date: 2024-10-12
 tags: ["hobbies", "passion"]
 ---
 # 算法兴趣培养计划第二日
