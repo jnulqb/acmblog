@@ -3,7 +3,9 @@
     "./docs/.vitepress/utils/*.ts",
     "./docs/.vitepress/userConfig/*.ts",
     "./docs/.vitepress/components/*.vue",
-    "./docs/.vitepress/views/*.vue"
+    "./docs/.vitepress/views/*.vue",
+    "./docs/.vitepress/theme/**/*.ts",
+    "./docs/.vitepress/theme/**/*.vue"
   ],
   "compilerOptions": {
     "module": "NodeNext",
@@ -12,7 +14,16 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
-    "types": ["node"],
-    "outDir": "./docs/.vitepress/dist"
+    "types": [
+      "node",
+      "vite/client"
+    ],
+    "outDir": "./docs/.vitepress/dist",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
   }
 }
