@@ -1,7 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
-    "@types/node": "^22.7.7",
+    "@types/node": "^22.15.29",
     "@types/vue": "^2.0.0",
     "autoprefixer": "^10.4.15",
     "markdown-it-mathjax3": "^4.3.2",
