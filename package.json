@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@giscus/vue": "^3.0.0",
-    "dayjs": "^1.11.9",
+    "dayjs": "^1.11.18",
     "gray-matter": "^4.0.3"
   }
 }
